@@ -1,0 +1,79 @@
+/* General Body Styling */
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #fdf4f4; /* Light blush background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+    width: 90%;
+}
+
+/* Heading and Subheading */
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    color: #d66e61;  /* Soft pinkish tone */
+    margin-bottom: 0.2em;
+}
+
+.subheading {
+    font-size: 1.2em;
+    color: #6d6d6d;
+    margin-top: 0;
+}
+
+/* Letter Text Styling */
+.letter-text {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    line-height: 1.8;
+    color: #5a5a5a;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/* Response Section Styling */
+#response-section p {
+    font-size: 1.2em;
+    color: #4a4a4a;
+    margin-bottom: 1em;
+}
+
+/* WhatsApp Link Styling */
+.whatsapp-link {
+    display: inline-block;
+    background: linear-gradient(145deg, #25D366, #128C7E);  /* Gradient green effect */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.whatsapp-link:hover {
+    background: linear-gradient(145deg, #128C7E, #25D366);
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 2em;
+    font-size: 1.1em;
+    color: #4a4a4a;
+}
